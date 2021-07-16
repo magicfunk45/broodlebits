@@ -7,10 +7,10 @@ const client = new tmi.Client({
     reconnect: true
   },
   identity: {
-    username: 'thebroodlebot',
-    password: 'oauth:gxbw7bcglvw8ppi9di7m2tpg7f1gbp'
+    username: '<enter name of the bot here>',
+    password: '<enter password here>'
   },
-  channels: ['thebroodles']
+  channels: ['<enter channelname here>']
 });
 
 client.connect();
